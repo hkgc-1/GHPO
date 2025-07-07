@@ -10,7 +10,7 @@
   <img src="./figures/ghpo_framework.png" alt="overview" style="width: 86%; height: auto;">
 </div>
 
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2504.14945) [![Hugging Face Collection](https://img.shields.io/badge/Dataset-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/hkgc/math3to5_olympiads_aime)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org) [![Hugging Face Collection](https://img.shields.io/badge/Dataset-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/hkgc/math3to5_olympiads_aime)
 
 </div>
 
