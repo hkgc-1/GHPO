@@ -178,7 +178,7 @@ For questions, feedback, or collaboration opportunities, feel free to reach out:
 ## Citation
 If you find our model, data, or evaluation code useful, please kindly cite our paper:
 ```bib
-@misc{luffy,
+@misc{ghpo,
       title={GHPO: Adaptive Guidance for Stable and Efficient LLM Reinforcement Learning}, 
       author={Ziru Liu, Cheng Gong, Xinyu Fu, Yaofang Liu, Ran Chen, Shoubo Hu, Suiyun Zhang, Rui Liu, Qingfu Zhang, Dandan Tu},
       year={2025},
