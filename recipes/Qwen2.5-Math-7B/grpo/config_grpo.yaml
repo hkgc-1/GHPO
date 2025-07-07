@@ -1,0 +1,59 @@
+# GRPO + math3to5 5 epoch + 15 steps math500
+# Model arguments
+model_name_or_path: Qwen/Qwen2.5-Math-7B
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+
+# Data training arguments
+dataset_name: chenggong1995/math3to5_olympiads_aime
+dataset_prompt_column: problem
+system_prompt: "You are a helpful AI Assistant that provides well-reasoned and detailed responses. You first think about the reasoning process as an internal monologue and then provide the user with the answer. Respond in the following format: <think>\n...\n</think>\n<answer>\n...\n</answer>"
+
+# GRPO trainer config
+beta: 0.0
+bf16: true
+use_vllm: true
+do_eval: false
+eval_strategy: "no"
+eval_steps: 2000000
+gradient_accumulation_steps: 28
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+hub_model_id: Qwen2.5-Math-7B-gen8-math3to5_olympiads_aime-grpo-beta0-epoch5-new44-test
+hub_strategy: every_save
+learning_rate: 1.0e-06
+log_completions: true
+log_level: info
+logging_first_step: true
+logging_steps: 5
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_prompt_length: 2048
+max_completion_length: 2048
+max_steps: -1
+num_generations: 8
+num_train_epochs: 5
+output_dir: Qwen2.5-Math-7B-gen8-math3to5_olympiads_aime-grpo-beta0-epoch5-new44-test
+overwrite_output_dir: true
+per_device_eval_batch_size: 8
+per_device_train_batch_size: 8
+push_to_hub: true
+report_to:
+- wandb
+reward_funcs:
+- accuracy
+- format
+reward_weights:
+- 1.0
+- 0.5
+scale_rewards: true
+rl_type: "grpo"
+hint_ratio: 0.5
+start_hint_step: 0
+save_strategy: "epoch"
+seed: 42
+warmup_ratio: 0.1
+save_total_limit: 1
+temperature: 1.0
