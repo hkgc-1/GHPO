@@ -72,7 +72,7 @@ This repository includes the GHPO implementation under the `src/ghpo` directory.
 
 The original [Open R1](https://github.com/huggingface/open-r1) supports training models with either DDP or DeepSpeed (ZeRO-2 and ZeRO-3), and use TRL's [vLLM backend](https://huggingface.co/docs/trl/speeding_up_training?vllm+examples=GRPO#vllm-for-fast-generation-in-online-methods) to scale training to large models across multiple nodes.
 
-For multi-node training on N+1 nodes, with 1 node running the vLLM server and N nodes running training, first spin up the vLLM server to run on e.g. 1 GPU as follows:
+For multi-node training on N nodes, with 1 node running the vLLM server and N-1 nodes running training, first spin up the vLLM server to run on e.g. 1 GPU as follows:
 ```shell
 CUDA_VISIBLE_DEVICES=0 trl vllm-serve --model Qwen/Qwen2.5-Math-7B
 ```
@@ -82,7 +82,7 @@ Once the server is up, run training on the remaining GPUs as follows:
 ```shell
 CUDA_VISIBLE_DEVICES=1,2,3,4,5,6,7 ACCELERATE_LOG_LEVEL=info \
     accelerate launch --config_file recipes/accelerate_configs/zero3.yaml \
-    --num_processes=4 src/ghpo/ghpo.py \
+    --num_processes=7 src/ghpo/ghpo.py \
     --config recipes/Qwen2.5-Math-7B/ghpo/config_ghpo.yaml
 ```
 
