@@ -40,7 +40,7 @@
 ## 🔧 Installation
 
 > [!NOTE]
-> GHPO is built on top of the [Open R1](https://github.com/huggingface/open-r1). You can refer to this repository for additional guidance and support.
+> GHPO is built on top of the [Open R1](https://github.com/huggingface/open-r1). The Trainer is based on [TRL](https://github.com/huggingface/trl). You can refer to this repository for additional guidance and support.
 
 You may create a Python virtual environment using [uv](https://github.com/astral-sh/uv):
 
