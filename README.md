@@ -10,13 +10,13 @@
   <img src="./figures/ghpo_framework.png" alt="overview" style="width: 86%; height: auto;">
 </div>
 
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org) [![Hugging Face Collection](https://img.shields.io/badge/Dataset-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/hkgc/math3to5_olympiads_aime)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.10628) [![Hugging Face Collection](https://img.shields.io/badge/Dataset-fcd022?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/hkgc/math3to5_olympiads_aime)
 
 </div>
 
 # 🎉News
-- **[2025/07/07]** GHPO code is released.
-- **[2025/07/07]** GHPO paper available on [arXiv](http://arxiv.org/).
+- **[2025/07/16]** GHPO code is released.
+- **[2025/07/16]** GHPO paper available on [arXiv](https://arxiv.org/abs/2507.10628).
 
 
 ---
@@ -181,7 +181,7 @@ If you find our model, data, or evaluation code useful, please kindly cite our p
       year={2025},
       eprint={1},
       archivePrefix={arXiv},
-      url={https://arxiv.org/}, 
+      url={https://arxiv.org/abs/2507.10628}, 
 }
 ```
 
