@@ -177,10 +177,11 @@ If you find our model, data, or evaluation code useful, please kindly cite our p
 ```bib
 @misc{ghpo,
       title={GHPO: Adaptive Guidance for Stable and Efficient LLM Reinforcement Learning}, 
-      author={Ziru Liu, Cheng Gong, Xinyu Fu, Yaofang Liu, Ran Chen, Shoubo Hu, Suiyun Zhang, Rui Liu, Qingfu Zhang, Dandan Tu},
+      author={Ziru Liu and Cheng Gong and Xinyu Fu and Yaofang Liu and Ran Chen and Shoubo Hu and Suiyun Zhang and Rui Liu and Qingfu Zhang and Dandan Tu},
       year={2025},
-      eprint={1},
+      eprint={2507.10628},
       archivePrefix={arXiv},
+      primaryClass={cs.AI},
       url={https://arxiv.org/abs/2507.10628}, 
 }
 ```
