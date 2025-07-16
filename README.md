@@ -181,7 +181,7 @@ If you find our model, data, or evaluation code useful, please kindly cite our p
       year={2025},
       eprint={2507.10628},
       archivePrefix={arXiv},
-      primaryClass={cs.AI},
+      primaryClass={cs.LG},
       url={https://arxiv.org/abs/2507.10628}, 
 }
 ```
