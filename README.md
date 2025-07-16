@@ -28,7 +28,7 @@
 **G**uided **H**ybrid **P**olicy **O**ptimization (**GHPO**) introduces a novel difficulty-aware reinforcement learning framework designed to address the issue of capacity-difficulty mismatch. This occurs when the complexity of the training data outpaces the model’s current capabilities, resulting in critically sparse reward signals and stalled learning progress. This challenge is particularly acute for smaller, more resource-efficient LLMs. GHPO dynamically calibrates task difficulty by employing adaptive prompt refinement to provide targeted guidance. This unique approach adaptively balances direct imitation learning for problems currently beyond the model's reach with exploration-based reinforcement learning for more manageable tasks, effectively creating a smooth and optimized learning curriculum.
 
 <div align="center">
-  <img src="./figures/table.png" alt="overview" style="width: 86%; height: auto;">
+  <img src="./figures/table1.png" alt="overview" style="width: 86%; height: auto;">
 </div>
 
 ### ✨ Key Highlights:
