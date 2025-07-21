@@ -35,7 +35,7 @@
 ### ✨ Key Highlights:
 - Identifies the critical role of capacity alignment in RLVR and propose the GHPO framework to improve training stability and efficiency.
 - Introduces an automated framework to detect sample difficulty and adaptively switch between on-policy reinforcement learning and guided imitation learning by adaptive prompt refinement.
-- Extensive experiments demonstrate that GHPO outperforms state-of-the-art RL methods. Results show consistent performance gains across different model families, validating the effectiveness and robustness of our approach.
+- Extensive experiments demonstrate that GHPO outperforms state-of-the-art RL methods with 5% improvements across six benchmarks. Results show consistent performance gains across different model families, validating the effectiveness and robustness of our approach.
 ---
 
 ## 🔧 Installation
